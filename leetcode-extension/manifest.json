@@ -3,9 +3,6 @@
   "name": "LeetCode Extension",
   "version": "1.0.0",
   "description": "A Chrome extension for LeetCode",
-  "background": {
-    "service_worker": "background.js"
-  },
   "content_scripts": [
     {
       "matches": ["https://leetcode.com/*"],
